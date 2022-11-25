@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section className={layout.sectionReverse}>
       <div className={`${layout.sectionInfo}`}>
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className="flex mt-[8rem] flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} xs:text-[12px]`}>
             Make <br className="sm:block hidden" /> remote work
           </h1>
@@ -19,7 +19,7 @@ function Hero() {
           Streamline processes, create team rituals, and{" "}
           <br className="sm:block hidden" /> watch productivity soar.
         </p>
-        <div className="flex flex-row flex-wrap sm:mt-10 mt-6 justify-center items-center">
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-4 justify-center items-center">
           <Button />
         </div>
 

@@ -9,46 +9,48 @@ import {
   Todo,
 } from "../assets";
 
+export const CompanyLinks = [
+  {
+    id: 1,
+    name: "History",
+  },
+  {
+    id: 2,
+    name: "Our Team",
+  },
+  {
+    id: 3,
+    name: "Blog",
+  },
+];
+
+export const featuresLinks = [
+  {
+    name: "Todo List",
+    icon: Todo,
+  },
+  {
+    name: "Calendar",
+    icon: Calendar,
+  },
+  {
+    name: "Reminder",
+    icon: Reminder,
+  },
+  {
+    name: "Planning",
+    icon: Planning,
+  },
+];
+
 export const navLinks = [
   {
     id: "features",
     title: "Features",
-    featuresLinks: [
-      {
-        name: "Todo List",
-        icon: Todo,
-      },
-      {
-        name: "Calendar",
-        icon: Calendar,
-      },
-      {
-        name: "Reminder",
-        icon: Reminder,
-      },
-      {
-        name: "Planning",
-        icon: Planning,
-      },
-    ],
   },
   {
     id: "company",
     title: "Company",
-    CompanyLinks: [
-      {
-        id: 1,
-        name: "History",
-      },
-      {
-        id: 2,
-        name: "Our Team",
-      },
-      {
-        id: 3,
-        name: "Blog",
-      },
-    ],
   },
   {
     id: "careers",
