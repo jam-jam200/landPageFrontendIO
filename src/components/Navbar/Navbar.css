@@ -4,4 +4,8 @@
     height: 23px;
     padding-bottom: 0;
   }
+
+  .snap__navbar {
+    padding-bottom: 0;
+  }
 }

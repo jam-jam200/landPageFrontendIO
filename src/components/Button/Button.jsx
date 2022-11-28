@@ -1,4 +1,5 @@
 import React from "react";
+import "./Button.css"
 
 // py-4 px-6 bg-almostBlack font-epilogue text-primary font-medium text-[18px] outline-none ${styles} rounded-[15px] hover:bg-primary hover:text-almostBlack hover:border-almostBlack border-secondary mt-[3rem]`}
 
@@ -6,7 +7,7 @@ function Button({ styles }) {
   return (
     <button
       type="button"
-      className={`py-4 px-10 bg-almostBlack font-epilogue text-primary font-medium text-[18px] outline-none ${styles} rounded-[15px] border-[3px] hover:bg-primary  hover:text-almostBlack hover:border-almostBlack mt-[1rem] mb-[1rem]`}
+      className={`py-4 px-10 bg-almostBlack font-epilogue text-primary font-medium text-[18px] outline-none ${styles} rounded-[15px] border-[3px] hover:bg-primary  hover:text-almostBlack hover:border-almostBlack mt-[1rem] mb-[1rem] snap__btn`}
     >
       Learn More
     </button>

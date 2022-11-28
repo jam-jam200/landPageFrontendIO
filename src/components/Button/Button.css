@@ -1,0 +1,12 @@
+@media screen and (max-width: 550px) {
+  .snap__btn {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-align: center;
+  }
+}
