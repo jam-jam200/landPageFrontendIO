@@ -2,7 +2,7 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
-    "font-epilogue font-bold xs:text-[50px] xs:leading-[76.8px] w-full ss:text-[72px] text-[70px] text-almostBlack ss:leading-[70px] leading-[70px] ",
+    "font-epilogue font-extrabold xs:text-[50px] xs:leading-[76.8px] w-full ss:text-[72px] text-[70px] text-almostBlack ss:leading-[70px] leading-[70px] ",
   paragraph:
     "font-epilogue font-normal text-secondary text-[18px] leading-[30.8px]",
 

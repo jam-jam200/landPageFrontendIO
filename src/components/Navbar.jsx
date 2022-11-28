@@ -6,6 +6,7 @@ import { LoginButton } from "./Button";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [arrowToggle, setArrowToggle] = useState(false);
+  const [fTToggle, setFtToggle] = useState(false);
   const [arrowToggle2, setArrowToggle2] = useState(false);
   return (
     <nav className="w-full  flex py-6 justify-between items-center navbar ">
@@ -58,7 +59,7 @@ function Navbar() {
               arrowToggle2 ? "flex" : "hidden"
             } bg-primary h-[100% absolute top-20 left-[23rem] z-10 mx-4 min-w-[140px] sidebar drop-shadow-2xl rounded-[18px] p-[1.8rem] justify-start items-start text-left`}
           >
-            <ul className="flex flex-col list-none items-center flex-1">
+            <ul className="flex flex-col list-none flex-1">
               {CompanyLinks.map((link) => (
                 <li
                   key={link.id}
@@ -97,7 +98,7 @@ function Navbar() {
             toggle ? "flex" : "hidden"
           } p-6 bg-primary border-l-[2px] h-[100%] absolute top-20 right-0 mx-4 min-w-[140px] sidebar`}
         >
-          <ul className="flex flex-col list-none items-center flex-1">
+          <ul className="flex flex-col list-none flex-1">
             <li
               className={`font-epilogue font-semibold cursor-pointer text-[18px] hover:bg-primary hover:text-almostBlack mr-0 mb-3 text-secondary`}
             >
@@ -145,8 +146,8 @@ function Navbar() {
             >
               <a href={`/`}>About</a>
             </li>
-            <div className="flex flex-col">
-              <LoginButton className="ml-0 " />
+            <div className="flex flex-col items-center">
+              <LoginButton className="ml-0 " /> 
             </div>
           </ul>
         </div>
