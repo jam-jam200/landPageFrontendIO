@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Logo, ArrowDown, ArrowUp, Close, Menu } from "../assets";
-import { CompanyLinks, featuresLinks, navLinks } from "../constants";
-import { LoginButton } from "./Button";
+import { Logo, ArrowDown, ArrowUp, Close, Menu } from "../../assets";
+import { CompanyLinks, featuresLinks, navLinks } from "../../constants";
+import "./Navbar.css"
+import { LoginButton } from "../Button";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -9,8 +10,8 @@ function Navbar() {
   const [fTToggle, setFtToggle] = useState(false);
   const [arrowToggle2, setArrowToggle2] = useState(false);
   return (
-    <nav className="w-full  flex py-6 justify-between items-center navbar ">
-      <img src={Logo} alt="snap" className="w-[110px] h-[36px]  mr-[5rem]" />
+    <nav className="w-full  flex py-6 justify-between items-center navbar snap__navbar">
+      <img src={Logo} alt="snap" className="w-[110px] h-[36px]  mr-[5rem] snap__navbar-image" />
       <ul className="sm:flex hidden list-none justify-start items-center flex-1">
         <li
           className={`font-epilogue font-medium cursor-pointer text-[18px] hover:bg-primary hover:text-almostBlack mr-8 text-secondary flex gap-2`}

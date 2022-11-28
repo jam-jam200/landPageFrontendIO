@@ -1,0 +1,7 @@
+@media screen and (max-width: 550px) {
+  .snap__navbar-image {
+    width: 70px;
+    height: 23px;
+    padding-bottom: 0;
+  }
+}
