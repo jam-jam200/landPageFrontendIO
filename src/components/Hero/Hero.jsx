@@ -21,10 +21,12 @@ function Hero() {
           <br className="sm:block hidden" />
           Streamline processes, create team rituals, and{" "}
           <br className="sm:block hidden" /> watch productivity soar.
+          <>
+            <small className="flex flex-row flex-wrap sm:mt-10 mt-4 justify-center items-center snap__hero_btn">
+              <Button />
+            </small>
+          </>
         </p>
-        <div className="flex flex-row flex-wrap sm:mt-10 mt-4 justify-center items-center snap__hero_btn">
-          <Button />
-        </div>
 
         <div
           className={`${styles.flexCenter} my-4 snap__hero__client_container`}
@@ -35,7 +37,7 @@ function Hero() {
             {clients.map((client) => (
               <div
                 key={client.id}
-                className={` flex-1 sm:min-w-[152px] min-w-[120px] client py-8 rounded-[20px] max-w-[270px] md:mr-10 sm:mr-5 mr-0 snap__hero__client__image_container`}
+                className={` flex-1 min-w-[120px] client py-8 rounded-[20px] max-w-[270px] md:mr-10 sm:mr-5 mr-0 snap__hero__client__image_container`}
               >
                 <img
                   src={client.logo}
@@ -51,7 +53,7 @@ function Hero() {
       <div
         className={`${layout.sectionImgReverse} snap__hero__image_container`}
       >
-        <picture>
+        <picture className="snap__hero__image__container_pic">
           <source media="(min-width: 768px)" srcSet={Desktop} />
           <img
             src={Mobile}

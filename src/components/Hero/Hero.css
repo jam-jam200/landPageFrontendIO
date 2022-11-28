@@ -4,6 +4,10 @@
     padding-top: 0;
   }
 
+  .snap__hero__image__container_pic img {
+    margin-bottom: 3.5rem;
+  }
+
   .snap__hero_container {
     padding-top: 15px;
   }
@@ -14,7 +18,7 @@
   }
 
   .snap__hearo_heading h1 {
-    font-size: 30px;
+    font-size: 37px;
     line-height: 30px;
   }
 
@@ -22,20 +26,26 @@
     margin-top: 10px;
     padding: 0.5rem;
     text-align: center;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 24px;
     font-weight: 500;
   }
 
-  .snap__hero_btn {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 6rem;
+  .snap__hero__client_container {
+    margin-top: 0;
+  }
+
+  .snap__hero__client__image_container {
+    padding-top: 20px;
+    padding-bottom: 0;
   }
 
   .snap__hero__client__image_container img {
-    width: 55px;
+    min-width: 50px;
+    max-width: 80px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
