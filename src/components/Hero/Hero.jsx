@@ -29,20 +29,24 @@ function Hero() {
         </p>
 
         <div
-          className={`${styles.flexCenter} my-4 snap__hero__client_container`}
+          className={`snap__hero__client_container`}
+          // ${styles.flexCenter} my-4
         >
           <div
-            className={`${styles.flexCenter} w-full flex snap__hero__client_container_div`}
+            className={`snap__hero__client_container_div`}
+            //${styles.flexCenter} w-full flex
           >
             {clients.map((client) => (
               <div
                 key={client.id}
-                className={` flex-1 min-w-[120px] client py-8 rounded-[20px] max-w-[270px] md:mr-10 sm:mr-5 mr-0 snap__hero__client__image_container`}
+                className={` snap__hero__client__image_container`}
+                // flex-1 min-w-[120px] client py-8 rounded-[20px] max-w-[270px] md:mr-10 sm:mr-5 mr-0
               >
                 <img
                   src={client.logo}
                   alt="clients"
-                  className="w-[110px] object-contain cursor-pointer"
+                  className=""
+                  // w-[110px] object-contain cursor-pointer
                 />
               </div>
             ))}

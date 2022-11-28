@@ -31,13 +31,18 @@
     font-weight: 500;
   }
 
-  .snap__hero__client_container {
-    margin-top: 0;
+  .snap__hero__client_container_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .snap__hero__client__image_container {
     padding-top: 20px;
     padding-bottom: 0;
+    padding-left: 10px;
   }
 
   .snap__hero__client__image_container img {
